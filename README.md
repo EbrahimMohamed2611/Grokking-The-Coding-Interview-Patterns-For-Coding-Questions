@@ -13,5 +13,6 @@
 | 2   | Maximum Sum Subarray of Size K                 | Arrays & Sliding Window           | java     |
 | 3   | Smallest Subarray with a given sum             | Arrays & Sliding Window           | java     |
 | 4   | Longest Substring with K Distinct Characters   | Arrays & Hashing & Sliding Window | java     |
+| 5   | Fruits Into Baskets                            | Arrays & Hashing & Sliding Window | java     |
 
 </details>
