@@ -27,5 +27,6 @@
 | 2   | Remove Duplicates From Sorted Array | Arrays & Two Pointers           | java     |
 | 3   | Remove Element From UnSorted Array  | Arrays & Two Pointers           | java     |
 | 4   | Squaring a Sorted Array             | Arrays & Two Pointers           | java     |
+| 5   | Triplet Sum to Zero                 | Arrays & Two Pointers           | java     |
 
 </details>
