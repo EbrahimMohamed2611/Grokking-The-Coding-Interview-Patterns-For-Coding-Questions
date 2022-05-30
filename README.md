@@ -26,5 +26,6 @@
 | 1   | Pair with Target Sum                | Arrays & Two Pointers & Hashing | java     |
 | 2   | Remove Duplicates From Sorted Array | Arrays & Two Pointers           | java     |
 | 3   | Remove Element From UnSorted Array  | Arrays & Two Pointers           | java     |
+| 4   | Squaring a Sorted Array             | Arrays & Two Pointers           | java     |
 
 </details>
