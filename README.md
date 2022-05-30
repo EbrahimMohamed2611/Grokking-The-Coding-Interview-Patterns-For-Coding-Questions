@@ -21,9 +21,10 @@
 <details>
 <summary>Two Pointers</summary>
 
-| #   | Problem              | Topic                           | Language |
-|-----|----------------------|---------------------------------|----------|
-| 1   | Pair with Target Sum | Arrays & Two Pointers & Hashing | java     |
-| 2   | Remove Duplicates    | Arrays & Two Pointers           | java     |
+| #   | Problem                             | Topic                           | Language |
+|-----|-------------------------------------|---------------------------------|----------|
+| 1   | Pair with Target Sum                | Arrays & Two Pointers & Hashing | java     |
+| 2   | Remove Duplicates From Sorted Array | Arrays & Two Pointers           | java     |
+| 3   | Remove Element From UnSorted Array  | Arrays & Two Pointers           | java     |
 
 </details>
