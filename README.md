@@ -16,3 +16,13 @@
 | 5   | Fruits Into Baskets                            | Arrays & Hashing & Sliding Window | java     |
 
 </details>
+
+<details>
+<summary>Two Pointers</summary>
+
+| #   | Problem              | Topic                           | Language |
+|-----|----------------------|---------------------------------|----------|
+| 1   | Pair with Target Sum | Arrays & Two Pointers & Hashing | java     |
+
+
+</details>
