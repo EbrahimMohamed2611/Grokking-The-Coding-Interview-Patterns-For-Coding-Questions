@@ -17,12 +17,13 @@
 
 </details>
 
+---
 <details>
 <summary>Two Pointers</summary>
 
 | #   | Problem              | Topic                           | Language |
 |-----|----------------------|---------------------------------|----------|
 | 1   | Pair with Target Sum | Arrays & Two Pointers & Hashing | java     |
-
+| 2   | Remove Duplicates    | Arrays & Two Pointers           | java     |
 
 </details>
