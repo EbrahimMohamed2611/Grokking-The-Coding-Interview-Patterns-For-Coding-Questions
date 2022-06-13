@@ -10,10 +10,25 @@
 | #   | Problem                                        | Topic                             | Language |
 |-----|------------------------------------------------|-----------------------------------|----------|
 | 1   | Average of all contiguous sub arrays of size K | Arrays & Sliding Window           | java     |
-| 2   | Maximum Sum Subarray of Size K                 | Arrays & Sliding Window           | java     |
+| 2   | Maximum Sum Subarray of Size K                 | Arrays & Sliding Window           | java C++ |
 | 3   | Smallest Subarray with a given sum             | Arrays & Sliding Window           | java     |
 | 4   | Longest Substring with K Distinct Characters   | Arrays & Hashing & Sliding Window | java     |
 | 5   | Fruits Into Baskets                            | Arrays & Hashing & Sliding Window | java     |
+
+</details>
+
+---
+<details>
+<summary>Two Pointers</summary>
+
+| #   | Problem                             | Topic                           | Language |
+|-----|-------------------------------------|---------------------------------|----------|
+| 1   | Pair with Target Sum                | Arrays & Two Pointers & Hashing | java     |
+| 2   | Remove Duplicates From Sorted Array | Arrays & Two Pointers           | java     |
+| 3   | Remove Element From UnSorted Array  | Arrays & Two Pointers           | java     |
+| 4   | Squaring a Sorted Array             | Arrays & Two Pointers           | java     |
+| 5   | Triplet Sum to Zero                 | Arrays & Two Pointers           | java     |
+| 6   | Three Sum Closest                   | Arrays & Two Pointers           | java     |
 
 </details>
 
