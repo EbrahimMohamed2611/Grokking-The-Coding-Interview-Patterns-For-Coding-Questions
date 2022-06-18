@@ -41,6 +41,7 @@
 |-----|------------------|---------------------------------|----------|
 | 1   | LinkedList Cycle | LinkedList & Fast Slow Pointers | java     |
 | 2   | Length Of Cycle  | LinkedList & Fast Slow Pointers | java     |
+| 3   | Happy Number     | Math & Fast Slow Pointers       | java     |
 
 
 </details>
