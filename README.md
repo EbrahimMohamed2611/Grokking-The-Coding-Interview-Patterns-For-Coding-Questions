@@ -45,3 +45,15 @@
 
 
 </details>
+
+---
+<details>
+<summary>Merge Intervals</summary>
+
+| #   | Problem         | Topic            | Language |
+|-----|-----------------|------------------|----------|
+| 1   | Merge Intervals | Arrays Intervals | java     |
+| 2   | Insert Interval | Arrays Intervals | java     |
+
+
+</details>
