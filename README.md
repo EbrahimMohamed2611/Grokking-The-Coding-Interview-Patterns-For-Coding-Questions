@@ -59,3 +59,14 @@
 
 
 </details>
+
+---
+<details>
+<summary>Cyclic Sort</summary>
+
+| #   | Problem    | Topic              | Language |
+|-----|------------|--------------------|----------|
+| 1   | Cycle Sort | Arrays Cyclic Sort | java     |
+
+
+</details>
