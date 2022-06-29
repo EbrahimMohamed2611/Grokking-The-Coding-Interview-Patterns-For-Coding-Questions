@@ -1,7 +1,6 @@
-package io.educative.patternSlidingWindow;
+package io.educative.slidingWindow;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class AverageOfAllContiguousSubArraysOfSizeK {

@@ -1,4 +1,4 @@
-package io.educative.patternSlidingWindow;
+package io.educative.slidingWindow;
 
 public class MaximumSumSubArrayOfSizeK {
 
