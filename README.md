@@ -75,10 +75,11 @@
 <details>
 <summary>In Place Reversal LinkedList</summary>
 
-| #   | Problem             | Topic      | Language |
-|-----|---------------------|------------|----------|
-| 1   | Reverse Linked List | LinkedList | java     |
-| 2   | Reverse Sub list    | LinkedList | java     |
+| #   | Problem                  | Topic      | Language |
+|-----|--------------------------|------------|----------|
+| 1   | Reverse Linked List      | LinkedList | java     |
+| 2   | Reverse Sub list         | LinkedList | java     |
+| 3   | Reverse First K Elements | LinkedList | java     |
 
 
 </details>
