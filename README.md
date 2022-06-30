@@ -75,11 +75,13 @@
 <details>
 <summary>In Place Reversal LinkedList</summary>
 
-| #   | Problem                  | Topic      | Language |
-|-----|--------------------------|------------|----------|
-| 1   | Reverse Linked List      | LinkedList | java     |
-| 2   | Reverse Sub list         | LinkedList | java     |
-| 3   | Reverse First K Elements | LinkedList | java     |
+| #   | Problem                                                                                | Topic      | Language |
+|-----|----------------------------------------------------------------------------------------|------------|----------|
+| 1   | Reverse Linked List                                                                    | LinkedList | java     |
+| 2   | Reverse Sub list                                                                       | LinkedList | java     |
+| 3   | Reverse First K Elements                                                               | LinkedList | java     |
+| 4   | Reverse Every K Elements                                                               | LinkedList | java     |
+| 4-1 | [25.Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | LinkedList | java     |
 
 
 </details>
