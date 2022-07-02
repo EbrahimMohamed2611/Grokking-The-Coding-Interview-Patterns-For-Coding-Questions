@@ -94,7 +94,8 @@
 |-----|-----------------------------------|----------|----------|
 | 1   | Binary Tree Level Order Traversal | Tree BFS | java     |
 | 2   | Reverse Level Order Traversal     | Tree BFS | java     |
-| 2   | Minimum Depth of a Binary Tree    | Tree BFS | java     |
+| 3   | Minimum Depth of a Binary Tree    | Tree BFS | java     |
+| 4   | Maximum Depth of a Binary Tree    | Tree BFS | java     |
 
 
 

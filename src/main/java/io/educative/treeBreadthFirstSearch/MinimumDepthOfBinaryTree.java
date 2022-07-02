@@ -2,10 +2,12 @@ package io.educative.treeBreadthFirstSearch;
 
 import java.util.*;
 
-public class MinimumDepthOfِBinaryTree {
+public class MinimumDepthOfBinaryTree {
 
     public static int minimumDepth(TreeNode root) {
         int minimumDepth = 0;
+        if(root == null)
+            return minimumDepth;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         while (!queue.isEmpty()) {
