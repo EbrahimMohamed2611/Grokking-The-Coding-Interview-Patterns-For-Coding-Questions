@@ -93,6 +93,7 @@
 | #   | Problem                           | Topic    | Language |
 |-----|-----------------------------------|----------|----------|
 | 1   | Binary Tree Level Order Traversal | Tree BFS | java     |
+| 2   | Reverse Level Order Traversal     | Tree BFS | java     |
 
 
 
