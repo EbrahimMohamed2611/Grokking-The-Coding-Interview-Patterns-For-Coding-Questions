@@ -90,15 +90,17 @@
 <details>
 <summary>Tree Breadth First Search</summary>
 
-| #   | Problem                           | Topic    | Language |
-|-----|-----------------------------------|----------|----------|
-| 1   | Binary Tree Level Order Traversal | Tree BFS | java     |
-| 2   | Reverse Level Order Traversal     | Tree BFS | java     |
-| 3   | Minimum Depth of a Binary Tree    | Tree BFS | java     |
-| 4   | Maximum Depth of a Binary Tree    | Tree BFS | java     |
-| 5   | Zigzag Traversal                  | Tree BFS | java     |
-| 6   | Right View of a Binary Tree       | Tree BFS | java     |
-| 7   | Left View of a Binary Tree        | Tree BFS | java     |
+| #   | Problem                                      | Topic    | Language |
+|-----|----------------------------------------------|----------|----------|
+| 1   | Binary Tree Level Order Traversal            | Tree BFS | java     |
+| 2   | Reverse Level Order Traversal                | Tree BFS | java     |
+| 3   | Minimum Depth of a Binary Tree               | Tree BFS | java     |
+| 4   | Maximum Depth of a Binary Tree               | Tree BFS | java     |
+| 5   | Zigzag Traversal                             | Tree BFS | java     |
+| 6   | Right View of a Binary Tree                  | Tree BFS | java     |
+| 7   | Left View of a Binary Tree                   | Tree BFS | java     |
+| 8   | Level Averages in a Binary Tree              | Tree BFS | java     |
+| 9   | largest value on each level of a binary tree | Tree BFS | java     |
 
 
 
