@@ -101,6 +101,7 @@
 | 7   | Left View of a Binary Tree                   | Tree BFS | java     |
 | 8   | Level Averages in a Binary Tree              | Tree BFS | java     |
 | 9   | largest value on each level of a binary tree | Tree BFS | java     |
+| 10  | Level Order Successor                        | Tree BFS | java     |
 
 
 
