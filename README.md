@@ -103,6 +103,15 @@
 | 9   | largest value on each level of a binary tree | Tree BFS | java     |
 | 10  | Level Order Successor                        | Tree BFS | java     |
 
+</details>
+
+---
+<details>
+<summary>Tree Depth First Search</summary>
+
+| #   | Problem              | Topic    | Language |
+|-----|----------------------|----------|----------|
+| 1   | Binary Tree Path Sum | Tree DFS | java     |
 
 
 </details>

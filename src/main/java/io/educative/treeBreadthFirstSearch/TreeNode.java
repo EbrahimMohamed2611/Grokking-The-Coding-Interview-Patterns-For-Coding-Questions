@@ -1,9 +1,9 @@
 package io.educative.treeBreadthFirstSearch;
 
 public class TreeNode {
-    int val;
-    TreeNode leftChild;
-    TreeNode rightChild;
+    public int val;
+    public TreeNode leftChild;
+    public TreeNode rightChild;
 
     public TreeNode(int val) {
         this.val = val;
