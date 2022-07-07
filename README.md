@@ -112,6 +112,7 @@
 | #   | Problem              | Topic    | Language |
 |-----|----------------------|----------|----------|
 | 1   | Binary Tree Path Sum | Tree DFS | java     |
+| 2   | All Paths for a Sum  | Tree DFS | java     |
 
 
 </details>
