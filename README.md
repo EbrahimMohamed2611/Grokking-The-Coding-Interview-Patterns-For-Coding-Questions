@@ -113,6 +113,7 @@
 |-----|----------------------|----------|----------|
 | 1   | Binary Tree Path Sum | Tree DFS | java     |
 | 2   | All Paths for a Sum  | Tree DFS | java     |
+| 3   | Sum of Path Numbers  | Tree DFS | java     |
 
 
 </details>
