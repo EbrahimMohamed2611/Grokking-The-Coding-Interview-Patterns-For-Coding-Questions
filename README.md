@@ -123,9 +123,9 @@
 <details>
 <summary>Two Heaps </summary>
 
-| #   | Problem              | Topic    | Language |
-|-----|----------------------|----------|----------|
-| 1   | Find the Median of a Number Stream | Tree DFS | java     |
+| #   | Problem                            | Topic                    | Language |
+|-----|------------------------------------|--------------------------|----------|
+| 1   | Find the Median of a Number Stream | Two Heaps Priority Queue | java     |
 
 
 
