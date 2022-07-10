@@ -7,7 +7,7 @@ public class MaximumDepthOfBinaryTree {
 
     public static int maximumDepth(TreeNode root) {
         int maximumDepth = 0;
-        if(root == null)
+        if (root == null)
             return maximumDepth;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
@@ -25,6 +25,25 @@ public class MaximumDepthOfBinaryTree {
         return maximumDepth;
     }
 
+    public static int maximumDepthRecur(TreeNode root) {
+
+        return maximumDepthRecur(root, 0) + 1;
+    }
+
+    private static int maximumDepthRecur(TreeNode root, int depth) {
+        if (root == null)
+            return 0;
+        if (isLeaf(root))
+            return depth;
+        int leftDepth = maximumDepthRecur(root.leftChild, depth + 1);
+        int rightDepth = maximumDepthRecur(root.rightChild, depth + 1);
+        return Math.max(leftDepth, rightDepth);
+    }
+
+    private static boolean isLeaf(TreeNode node) {
+        return node.rightChild == null && node.leftChild == null;
+    }
+
     public static void main(String[] args) {
         TreeNode root = new TreeNode(2);
         root.leftChild = new TreeNode(7);
@@ -33,5 +52,6 @@ public class MaximumDepthOfBinaryTree {
         root.rightChild.leftChild = new TreeNode(10);
         root.rightChild.rightChild = new TreeNode(5);
         System.out.println(maximumDepth(root));
+        System.out.println(maximumDepthRecur(root));
     }
 }

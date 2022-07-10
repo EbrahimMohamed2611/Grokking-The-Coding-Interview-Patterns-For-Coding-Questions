@@ -8,12 +8,13 @@ import java.util.List;
 public class SumOfPathNumbers {
 
     public static int findSumOfPath(TreeNode root) {
-        if (root == null)
-            return 0;
+
         return findSumOfPath(root, 0);
     }
 
     private static int findSumOfPath(TreeNode root, int sum) {
+        if (root == null)
+            return 0;
         sum = sum * 10 + root.val;
         if (isLeaf(root)) {
             return sum;
@@ -27,8 +28,6 @@ public class SumOfPathNumbers {
 
 
     public static int findSumOfPath2(TreeNode root) {
-        if (root == null)
-            return 0;
         List<List<Integer>> pathSums = new ArrayList<>();
         findSumOfPath2(root, pathSums, new ArrayList<>());
         System.out.println(pathSums);
@@ -46,6 +45,8 @@ public class SumOfPathNumbers {
     }
 
     private static void findSumOfPath2(TreeNode root, List<List<Integer>> pathSums, List<Integer> pathSum) {
+        if (root == null)
+            return;
         pathSum.add(root.val);
         if (isLeaf(root)) {
             pathSums.add(pathSum);
@@ -58,8 +59,6 @@ public class SumOfPathNumbers {
     }
 
     public static int findSumOfPath3(TreeNode root) {
-        if (root == null)
-            return 0;
         List<List<Integer>> pathSums = new ArrayList<>();
         findSumOfPath3(root, pathSums, new ArrayList<>());
         System.out.println(pathSums);
@@ -75,6 +74,8 @@ public class SumOfPathNumbers {
     }
 
     private static void findSumOfPath3(TreeNode root, List<List<Integer>> pathSums, List<Integer> pathSum) {
+        if (root == null)
+            return;
         pathSum.add(root.val);
         if (isLeaf(root)) {
             pathSums.add(new ArrayList<>(pathSum));

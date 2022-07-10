@@ -114,6 +114,19 @@
 | 1   | Binary Tree Path Sum | Tree DFS | java     |
 | 2   | All Paths for a Sum  | Tree DFS | java     |
 | 3   | Sum of Path Numbers  | Tree DFS | java     |
+| 4   | Tree Diameter        | Tree DFS | java     |
+
+
+</details>
+
+---
+<details>
+<summary>Two Heaps </summary>
+
+| #   | Problem              | Topic    | Language |
+|-----|----------------------|----------|----------|
+| 1   | Find the Median of a Number Stream | Tree DFS | java     |
+
 
 
 </details>
