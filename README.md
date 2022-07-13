@@ -130,3 +130,15 @@
 
 
 </details>
+
+---
+<details>
+<summary>Topological Sort (Graph) </summary>
+
+| #   | Problem          | Topic                      | Language |
+|-----|------------------|----------------------------|----------|
+| 1   | Topological Sort | Graph Topological-Sort DFS | java     |
+
+
+
+</details>
