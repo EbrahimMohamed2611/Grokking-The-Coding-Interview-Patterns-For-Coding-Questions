@@ -135,9 +135,11 @@
 <details>
 <summary>Topological Sort (Graph) </summary>
 
-| #   | Problem          | Topic                      | Language |
-|-----|------------------|----------------------------|----------|
-| 1   | Topological Sort | Graph Topological-Sort DFS | java     |
+| #   | Problem                | Topic                      | Language |
+|-----|------------------------|----------------------------|----------|
+| 1   | Topological Sort       | Graph Topological-Sort DFS | java     |
+| 2   | Tasks Scheduling       | Graph Topological-Sort DFS | java     |
+| 3   | Tasks Scheduling Order | Graph Topological-Sort DFS | java     |
 
 
 

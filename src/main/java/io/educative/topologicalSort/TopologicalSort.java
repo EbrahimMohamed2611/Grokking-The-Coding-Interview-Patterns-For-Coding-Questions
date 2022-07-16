@@ -4,7 +4,7 @@ import java.util.*;
 
 public class TopologicalSort {
 
-    public List<Integer> topologicalSort(int vertices, int[][] edges) {
+    public static List<Integer> topologicalSort(int vertices, int[][] edges) {
         List<Integer> sorted = new ArrayList<>();
         if (vertices == 0)
             return sorted;
@@ -17,6 +17,7 @@ public class TopologicalSort {
             inDegree.put(i, 0); // initialize all vertices with 0 degree
             graph.put(i, new ArrayList<>());
         }
+
 
         // (2) build Graph (connect each vertex with edges
         for (int i = 0; i < edges.length; i++) {
@@ -39,7 +40,7 @@ public class TopologicalSort {
             for (int child : currentChildren) {
                 inDegree.put(child, inDegree.get(child) - 1);
                 if (inDegree.get(child) == 0)
-                    sorted.add(child);
+                    sources.add(child);
             }
         }
         if (sorted.size() != vertices)
@@ -47,4 +48,11 @@ public class TopologicalSort {
 
         return sorted;
     }
+
+    public static void main(String[] args) {
+        System.out.println(topologicalSort(6, new int[][]{
+                {2, 5}, {0, 5}, {0, 4}, {1, 4}, {3, 2}, {1, 3}
+        }));
+    }
+
 }
