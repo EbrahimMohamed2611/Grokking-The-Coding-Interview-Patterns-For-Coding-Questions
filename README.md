@@ -153,6 +153,7 @@
 |-----|------------------------------|---------------------|----------|
 | 1   | Order-agnostic Binary Search | Array Binary Search | java     |
 | 2   | Ceiling of a Number          | Array Binary Search | java     |
+| 3   | flooring  of a Number        | Array Binary Search | java     |
 
 
 
