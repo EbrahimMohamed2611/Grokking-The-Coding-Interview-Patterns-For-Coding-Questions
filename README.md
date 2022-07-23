@@ -144,3 +144,15 @@
 
 
 </details>
+
+---
+<details>
+<summary>Modified Binary Search </summary>
+
+| #   | Problem                      | Topic               | Language |
+|-----|------------------------------|---------------------|----------|
+| 1   | Order-agnostic Binary Search | Array Binary Search | java     |
+
+
+
+</details>
