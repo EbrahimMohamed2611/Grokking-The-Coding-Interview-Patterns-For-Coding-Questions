@@ -43,7 +43,6 @@
 | 2   | Length Of Cycle  | LinkedList & Fast Slow Pointers | java     |
 | 3   | Happy Number     | Math & Fast Slow Pointers       | java     |
 
-
 </details>
 
 ---
@@ -57,7 +56,6 @@
 | 3   | Intervals Intersection   | Arrays Intervals | java     |
 | 4   | Conflicting Appointments | Arrays Intervals | java     |
 
-
 </details>
 
 ---
@@ -67,7 +65,6 @@
 | #   | Problem    | Topic              | Language |
 |-----|------------|--------------------|----------|
 | 1   | Cycle Sort | Arrays Cyclic Sort | java     |
-
 
 </details>
 
@@ -82,7 +79,6 @@
 | 3   | Reverse First K Elements                                                               | LinkedList | java     |
 | 4   | Reverse Every K Elements                                                               | LinkedList | java     |
 | 4-1 | [25.Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | LinkedList | java     |
-
 
 </details>
 
@@ -116,7 +112,6 @@
 | 3   | Sum of Path Numbers  | Tree DFS | java     |
 | 4   | Tree Diameter        | Tree DFS | java     |
 
-
 </details>
 
 ---
@@ -126,8 +121,6 @@
 | #   | Problem                            | Topic                    | Language |
 |-----|------------------------------------|--------------------------|----------|
 | 1   | Find the Median of a Number Stream | Two Heaps Priority Queue | java     |
-
-
 
 </details>
 
@@ -140,8 +133,6 @@
 | 1   | Topological Sort       | Graph Topological-Sort DFS | java     |
 | 2   | Tasks Scheduling       | Graph Topological-Sort DFS | java     |
 | 3   | Tasks Scheduling Order | Graph Topological-Sort DFS | java     |
-
-
 
 </details>
 
@@ -157,7 +148,6 @@
 | 4   | Next Letter                       | Array Binary Search | java     |
 | 5   | Number Range                      | Array Binary Search | java     |
 | 6   | Search in a Sorted Infinite Array | Array Binary Search | java     |
-
-
+| 7   | Minimum Difference Element        | Array Binary Search | java     |
 
 </details>
