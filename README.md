@@ -155,6 +155,7 @@
 | 2   | Ceiling of a Number          | Array Binary Search | java     |
 | 3   | flooring  of a Number        | Array Binary Search | java     |
 | 4   | Next Letter                  | Array Binary Search | java     |
+| 5   | Number Range                 | Array Binary Search | java     |
 
 
 
