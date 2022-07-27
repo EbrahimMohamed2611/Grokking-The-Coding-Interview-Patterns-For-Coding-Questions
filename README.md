@@ -149,13 +149,14 @@
 <details>
 <summary>Modified Binary Search </summary>
 
-| #   | Problem                      | Topic               | Language |
-|-----|------------------------------|---------------------|----------|
-| 1   | Order-agnostic Binary Search | Array Binary Search | java     |
-| 2   | Ceiling of a Number          | Array Binary Search | java     |
-| 3   | flooring  of a Number        | Array Binary Search | java     |
-| 4   | Next Letter                  | Array Binary Search | java     |
-| 5   | Number Range                 | Array Binary Search | java     |
+| #   | Problem                           | Topic               | Language |
+|-----|-----------------------------------|---------------------|----------|
+| 1   | Order-agnostic Binary Search      | Array Binary Search | java     |
+| 2   | Ceiling of a Number               | Array Binary Search | java     |
+| 3   | flooring  of a Number             | Array Binary Search | java     |
+| 4   | Next Letter                       | Array Binary Search | java     |
+| 5   | Number Range                      | Array Binary Search | java     |
+| 6   | Search in a Sorted Infinite Array | Array Binary Search | java     |
 
 
 
