@@ -149,5 +149,6 @@
 | 5   | Number Range                      | Array Binary Search | java     |
 | 6   | Search in a Sorted Infinite Array | Array Binary Search | java     |
 | 7   | Minimum Difference Element        | Array Binary Search | java     |
+| 8   | Bitonic Array Maximum             | Array Binary Search | java     |
 
 </details>
