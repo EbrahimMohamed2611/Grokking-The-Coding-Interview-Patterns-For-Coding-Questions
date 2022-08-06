@@ -151,5 +151,6 @@
 | 7   | Minimum Difference Element        | Array Binary Search | java     |
 | 8   | Bitonic Array Maximum             | Array Binary Search | java     |
 | 9   | Search Bitonic Array              | Array Binary Search | java     |
+| 10  | Search in Rotated Array           | Array Binary Search | java     |
 
 </details>
