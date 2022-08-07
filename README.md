@@ -158,3 +158,14 @@
 | 14  | [81.Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)        | Array Binary Search | java     |
 
 </details>
+
+---
+<details>
+<summary>Top _K_ Elements</summary>
+
+| #   | Problem             | Topic                    | Language |
+|-----|---------------------|--------------------------|----------|
+| 1   | Top 'K' Numbers     | Top _K_ Elements Heap PQ | java     |
+| 2   | Kth Smallest Number | Top _K_ Elements Heap PQ | java     |
+
+</details>
