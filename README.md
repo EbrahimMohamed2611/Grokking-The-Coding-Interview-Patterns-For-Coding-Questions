@@ -175,8 +175,9 @@
 <details>
 <summary>SubSet</summary>
 
-| #   | Problem | Topic                         | Language |
-|-----|---------|-------------------------------|----------|
-| 1   | SubSet  | SubSet Backtracking Recursion | java     |
+| #   | Problem                 | Topic                         | Language |
+|-----|-------------------------|-------------------------------|----------|
+| 1   | SubSet                  | SubSet Backtracking Recursion | java     |
+| 2   | Subsets With Duplicates | SubSet Backtracking Recursion | java     |
 
 </details>
