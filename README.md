@@ -170,3 +170,13 @@
 | 3   | [215.Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Top _K_ Elements Heap PQ | java     |
 
 </details>
+
+---
+<details>
+<summary>SubSet</summary>
+
+| #   | Problem | Topic                         | Language |
+|-----|---------|-------------------------------|----------|
+| 1   | SubSet  | SubSet Backtracking Recursion | java     |
+
+</details>
