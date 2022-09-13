@@ -169,6 +169,7 @@
 | 1   | Top 'K' Numbers                                                                                       | Top _K_ Elements Heap PQ | java     |
 | 2   | Kth Smallest Number                                                                                   | Top _K_ Elements Heap PQ | java     |
 | 3   | [215.Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Top _K_ Elements Heap PQ | java     |
+| 4   | [Rearrange String](https://leetcode.com/problems/kth-largest-element-in-an-array/)                    | Top _K_ Elements Heap PQ | java     |
 
 </details>
 
