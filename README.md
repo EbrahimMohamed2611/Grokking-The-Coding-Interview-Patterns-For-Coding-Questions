@@ -49,12 +49,13 @@
 <details>
 <summary>Merge Intervals</summary>
 
-| #   | Problem                  | Topic            | Language |
-|-----|--------------------------|------------------|----------|
-| 1   | Merge Intervals          | Arrays Intervals | java     |
-| 2   | Insert Interval          | Arrays Intervals | java     |
-| 3   | Intervals Intersection   | Arrays Intervals | java     |
-| 4   | Conflicting Appointments | Arrays Intervals | java     |
+| #   | Problem                           | Topic            | Language |
+|-----|-----------------------------------|------------------|----------|
+| 1   | Merge Intervals                   | Arrays Intervals | java     |
+| 2   | Insert Interval                   | Arrays Intervals | java     |
+| 3   | Intervals Intersection            | Arrays Intervals | java     |
+| 4   | Conflicting Appointments          | Arrays Intervals | java     |
+| 5   | Minimum Meeting Rooms (Important) | Arrays Intervals | java     |
 
 </details>
 
