@@ -183,3 +183,14 @@
 | 2   | Subsets With Duplicates | SubSet Backtracking Recursion | java     |
 
 </details>
+
+---
+<details>
+<summary>K-way merge</summary>
+
+| #   | Problem                                                                     | Topic           | Language |
+|-----|-----------------------------------------------------------------------------|-----------------|----------|
+| 1   | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | LinkedList Heap | java     |
+
+
+</details>
