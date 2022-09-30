@@ -37,9 +37,33 @@ public class FindMinimumInRotatedSortedArray2_154 {
     }
 
 
+    public static int findMinimum(int[] arr) {
+        int low = 0;
+        int high = arr.length - 1;
+        int mid;
+        while (high > low) {
+            mid = (high + low) / 2;
+            if (arr[mid] < arr[high])
+                high = mid;
+            else if (arr[mid] > arr[high])
+                low = mid + 1;
+            else {
+                high--;
+                if (arr[low] == arr[mid] && mid > low)
+                    low++;
+            }
+        }
+
+        return arr[high];
+    }
+
     public static void main(String[] args) {
-        System.out.println(findMin(new int[]{1,3,5})); // 1
-        System.out.println(findMin(new int[]{2,2,2,0,1})); // 0
+        System.out.println(findMin(new int[]{1, 3, 5})); // 1
+        System.out.println(findMin(new int[]{2, 2, 2, 0, 1})); // 0
         System.out.println(findMin(new int[]{11, 13, 15, 17})); // 11
+
+        System.out.println(findMinimum(new int[]{1, 3, 5})); // 1
+        System.out.println(findMinimum(new int[]{2, 2, 2, 0, 1})); // 0
+        System.out.println(findMinimum(new int[]{11, 13, 15, 17})); // 11
     }
 }

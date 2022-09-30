@@ -21,7 +21,7 @@ public class SmallestSubarrayWithAGivenSum {
             }
             endWindow++;
         }
-        return numberOfElements;
+        return (numberOfElements != Integer.MAX_VALUE) ? numberOfElements : 0;
     }
 
 
@@ -51,5 +51,6 @@ public class SmallestSubarrayWithAGivenSum {
         System.out.println(smallestSubarrayWithAGivenSum(new int[]{2, 1, 5, 2, 3, 2}, 7)); //2
         System.out.println(smallestSubarrayWithAGivenSum(new int[]{2, 1, 5, 2, 8}, 7)); //1
         System.out.println(smallestSubarrayWithAGivenSum(new int[]{3, 4, 1, 1, 6}, 8)); //3
+        System.out.println(smallestSubarrayWithAGivenSum(new int[]{2, 3, 1, 2, 4, 3}, 7)); //3
     }
 }

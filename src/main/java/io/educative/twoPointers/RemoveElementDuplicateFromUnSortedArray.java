@@ -5,13 +5,9 @@ public class RemoveElementDuplicateFromUnSortedArray {
     private static int remove(int[] arr, int k) {
         int firstPointer = 0;
         for (int secondPointer = 0; secondPointer < arr.length; secondPointer++) {
-            if(arr[firstPointer] ==k && arr[secondPointer] !=k){
-               int temp = arr[secondPointer];
-               arr[secondPointer] = arr[firstPointer];
-               arr[firstPointer] = temp;
+            if (arr[secondPointer] != k) {
+                arr[firstPointer++] = arr[secondPointer];
             }
-            if(arr[firstPointer] != k)
-                firstPointer++;
         }
         return firstPointer;
     }

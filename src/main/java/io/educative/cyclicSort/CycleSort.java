@@ -7,18 +7,19 @@ public class CycleSort {
     public static void sort(int[] arr) {
         int pointer = 0;
         while (pointer < arr.length) {
-            int current = arr[pointer];
-            if (current == pointer + 1)
+            int currentValue = arr[pointer] - 1;
+            if (arr[currentValue] == arr[pointer]) { // same like currentValue != pointer
                 pointer++;
-            else {
-                swap(arr, pointer, current);
-            }
+            } else
+                swap(arr, currentValue, pointer);
+
         }
+
     }
 
     private static void swap(int[] arr, int pointer, int current) {
-        int temp = arr[current - 1];
-        arr[current - 1] = arr[pointer];
+        int temp = arr[current];
+        arr[current] = arr[pointer];
         arr[pointer] = temp;
     }
 
