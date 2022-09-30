@@ -69,6 +69,7 @@
 | 2   | [Find The Missing Number](https://leetcode.com/problems/missing-number/)                            | Arrays Cyclic Sort XOR                | java     |
 | 3   | [Find all Missing Numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Arrays Cyclic Sort                    | java     |
 | 4   | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)               | Arrays Cyclic Sort Fast Slow Pointers | java     |
+| 5   | [Find All Duplicate Numbers](https://leetcode.com/problems/find-all-duplicates-in-an-array/)        | Arrays Cyclic Sort                    | java     |
 
 </details>
 
