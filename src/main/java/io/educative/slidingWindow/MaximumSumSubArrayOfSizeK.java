@@ -30,6 +30,7 @@ public class MaximumSumSubArrayOfSizeK {
      * Using bruteforce approach
      * TimeO(N^2)
      * Space O(1)
+     *
      * @param numbers
      * @param k
      * @return
@@ -49,6 +50,19 @@ public class MaximumSumSubArrayOfSizeK {
         return currentMaxSum;
     }
 
+
+    private static int maximumSumSubArrayOfSizeK2(int[] numbers, int k) {
+        int maxSum = 0, currentSum = 0;
+        for (int i = 0; i < k; i++)
+            currentSum += numbers[i];
+        int startWindow = 0, endWindow = k;
+        while (endWindow < numbers.length) {
+            currentSum = (currentSum - numbers[startWindow++]) + numbers[endWindow++];
+            maxSum = Math.max(maxSum, currentSum);
+        }
+        return maxSum;
+    }
+
     public static void main(String[] args) {
         maximumSumSubArrayOfSizeK(new int[]{2, 1, 5, 1, 3, 2}, 3); // 9
         maximumSumSubArrayOfSizeK(new int[]{2, 3, 4, 1, 5}, 2); //7
@@ -59,5 +73,10 @@ public class MaximumSumSubArrayOfSizeK {
         maximumSumSubArrayOfSizeK_2(new int[]{2, 3, 4, 1, 5}, 2); //7
         maximumSumSubArrayOfSizeK_2(new int[]{2, 1, 5, 1, 3, 2}, 3); // 9
         maximumSumSubArrayOfSizeK_2(new int[]{2, 3, 4, 1, 5}, 2); // 7
+        System.out.println("============");
+        System.out.println(maximumSumSubArrayOfSizeK2(new int[]{2, 1, 5, 1, 3, 2}, 3)); // 9
+        System.out.println(maximumSumSubArrayOfSizeK2(new int[]{2, 3, 4, 1, 5}, 2)); //7
+        System.out.println(maximumSumSubArrayOfSizeK2(new int[]{2, 1, 5, 1, 3, 2}, 3)); // 9
+        System.out.println(maximumSumSubArrayOfSizeK2(new int[]{2, 3, 4, 1, 5}, 2)); // 7
     }
 }

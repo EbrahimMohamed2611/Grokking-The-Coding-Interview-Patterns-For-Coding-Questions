@@ -2,6 +2,38 @@ package io.educative.slidingWindow;
 
 public class SmallestSubarrayWithAGivenSum {
 
+    private static int smallestSubarrayWithAGivenSum2(int[] arr, int s) {
+        int smallestSubArrayLength = Integer.MAX_VALUE;
+        int startWindow = 0;
+        int endWindow = 0;
+        int currentSum = 0;
+        while (endWindow < arr.length && currentSum < s)
+            currentSum += arr[endWindow++];
+
+        while (endWindow < arr.length) {
+            if (currentSum == s) {
+                smallestSubArrayLength = Math.min(smallestSubArrayLength, (endWindow - startWindow + 1));
+                currentSum += arr[startWindow];
+                endWindow++;
+            } else if (currentSum > s) {
+                while (currentSum > s && endWindow >= startWindow) {
+                    currentSum -= arr[startWindow];
+                    if (currentSum == s)
+                        smallestSubArrayLength = Math.min(smallestSubArrayLength, (endWindow - startWindow + 1));
+                    startWindow++;
+                }
+            } else {
+                while (currentSum < s && endWindow < arr.length) {
+                    currentSum += arr[endWindow];
+                    if (currentSum == s)
+                        smallestSubArrayLength = Math.min(smallestSubArrayLength, (endWindow - startWindow + 1));
+                    endWindow++;
+                }
+            }
+        }
+        return smallestSubArrayLength == Integer.MAX_VALUE ? 0 : smallestSubArrayLength;
+    }
+
     /**
      * Using Flexible sliding window
      * Time O(N)
@@ -49,8 +81,14 @@ public class SmallestSubarrayWithAGivenSum {
         System.out.println(smallestSubarrayWithAGivenSum(new int[]{2, 1, 5, 2, 8}, 7)); //1
         System.out.println(smallestSubarrayWithAGivenSum(new int[]{3, 4, 1, 1, 6}, 8)); //3
         System.out.println(smallestSubarrayWithAGivenSum(new int[]{2, 1, 5, 2, 3, 2}, 7)); //2
+
         System.out.println(smallestSubarrayWithAGivenSum(new int[]{2, 1, 5, 2, 8}, 7)); //1
         System.out.println(smallestSubarrayWithAGivenSum(new int[]{3, 4, 1, 1, 6}, 8)); //3
         System.out.println(smallestSubarrayWithAGivenSum(new int[]{2, 3, 1, 2, 4, 3}, 7)); //3
+
+        System.out.println(smallestSubarrayWithAGivenSum2(new int[]{2, 1, 5, 2, 8}, 7)); //1
+        System.out.println(smallestSubarrayWithAGivenSum2(new int[]{3, 4, 1, 1, 6}, 8)); //3
+        System.out.println(smallestSubarrayWithAGivenSum2(new int[]{2, 3, 1, 2, 4, 3}, 7)); //3
+        System.out.println(smallestSubarrayWithAGivenSum2(new int[]{2, 3, 1, 2, 4, 3}, 7)); //3
     }
 }

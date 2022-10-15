@@ -56,6 +56,7 @@
 | 3   | Intervals Intersection            | Arrays Intervals | java     |
 | 4   | Conflicting Appointments          | Arrays Intervals | java     |
 | 5   | Minimum Meeting Rooms (Important) | Arrays Intervals | java     |
+| 6   | Maximum CPU Load (Important)      | Arrays Intervals | java     |
 
 </details>
 

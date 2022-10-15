@@ -1,6 +1,7 @@
 package io.educative.slidingWindow;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class AverageOfAllContiguousSubArraysOfSizeK {
@@ -30,13 +31,32 @@ public class AverageOfAllContiguousSubArraysOfSizeK {
         averages.add(sumOfFirstKElement / k);
         // now we can use the overlapping between the current window and next Window
         for (int i = 1; i <= numbers.length - k; i++) {
-            sumOfFirstKElement =  sumOfFirstKElement -numbers[i - 1] + numbers[i + k-1];
+            sumOfFirstKElement = sumOfFirstKElement - numbers[i - 1] + numbers[i + k - 1];
             averages.add(sumOfFirstKElement / k);
         }
         System.out.println(averages);
     }
 
+    private static double[] findAverageForContiguousSubArraysOfSizeK2(int[] numbers, int k) {
+        if (numbers.length < k)
+            return new double[]{};
+        double[] average = new double[k];
+        //first calculate the first Sum k elements
+        double sum = 0;
+        int startWind = 0, endWindow = k;
+        for (int i = 0; i < k; i++)
+            sum += numbers[i];
+        average[0] = sum / k;
+
+        while (endWindow < numbers.length) {
+            sum = (sum - numbers[startWind++]) + numbers[endWindow++];
+            average[startWind] = sum / k;
+        }
+        return average;
+    }
+
     public static void main(String[] args) {
         findAverageForContiguousSubArraysOfSizeK(new int[]{1, 3, 2, 6, -1, 4, 1, 8, 2}, 5);
+        System.out.println(Arrays.toString(findAverageForContiguousSubArraysOfSizeK2(new int[]{1, 3, 2, 6, -1, 4, 1, 8, 2}, 5)));
     }
 }
