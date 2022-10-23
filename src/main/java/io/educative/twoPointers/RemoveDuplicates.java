@@ -53,10 +53,26 @@ public class RemoveDuplicates {
         return elementsSet.size();
     }
 
+    public static int removeDuplicate3(int[] numbers) {
+        int firstPointer = 0;
+        int secondPointer = 0;
+        while (secondPointer < numbers.length) {
+            if (numbers[firstPointer] != numbers[secondPointer]) {
+                numbers[++firstPointer] = numbers[secondPointer];
+            }
+            secondPointer++;
+        }
+        return firstPointer + 1;
+    }
+
     public static void main(String[] args) {
         System.out.println(removeDuplicate(new int[]{2, 3, 3, 3, 6, 9, 9})); // 4
         System.out.println(removeDuplicate(new int[]{2, 2, 2, 11})); // 2
-        System.out.println(removeDuplicate(new int[]{5000, 5000, 5000})); // 2
+        System.out.println(removeDuplicate(new int[]{5000, 5000, 5000})); // 1
+
+        System.out.println(removeDuplicate3(new int[]{2, 3, 3, 3, 6, 9, 9})); // 4
+        System.out.println(removeDuplicate3(new int[]{2, 2, 2, 11})); // 2
+        System.out.println(removeDuplicate3(new int[]{5000, 5000, 5000})); // 2
 
         System.out.println(removeDuplicate2(new int[]{2, 3, 3, 3, 6, 9, 9})); // 4
         System.out.println(removeDuplicate2(new int[]{2, 2, 2, 11})); // 2

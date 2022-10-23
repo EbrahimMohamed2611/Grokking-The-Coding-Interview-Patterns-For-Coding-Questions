@@ -30,6 +30,7 @@
 | 4   | Squaring a Sorted Array             | Arrays & Two Pointers           | java     |
 | 5   | Triplet Sum to Zero                 | Arrays & Two Pointers           | java     |
 | 6   | Three Sum Closest                   | Arrays & Two Pointers           | java     |
+| 7   | Triplet With smaller Sum            | Arrays & Two Pointers           | java     |
 
 </details>
 
