@@ -200,3 +200,14 @@
 
 
 </details>
+
+---
+<details>
+<summary>Monotonic Stack</summary>
+
+| #   | Problem                                                                           | Topic           | Language |
+|-----|-----------------------------------------------------------------------------------|-----------------|----------|
+| 1   | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | Monotonic Stack | java     |
+
+
+</details>
